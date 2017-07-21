@@ -1,45 +1,43 @@
 html{
-  color:silver;
+  color: blue;
   font-family:arial;
- 
+  background-color: white;
+  text-decoration: underline;
+  
 }
 
 h1{
-  background-color:green;
+  background-color:black;
 }
 
 p{
-  color:orange;
-  background-color: blue;
+  color:yellow;
+  background-color: purple;
+  border-style: ridge;
+  border-color: black
+  
 }
 
 .first{
   color:blue;
   font-style: italic;
+  
   }
 
 .bama{
   color:orange;
   font-weight: bold;
-  border-style: solid;
-  text-align: center;
+  border-style: double;
+  text-align: right;
+  }
+
+.first second{
+  color:yellow;
+  background-color: blue;
   
 }
 
-p{
-  background-color:white;
-  border-style: solid;
-  border-color: green
-}
 
-.second{
-  color:yellow;
-}
-
-html{
-  background-color:black;
-  text-decoration:gold underline;
- 
 .style{
 color:blue;
 }
@@ -57,10 +55,14 @@ color:orange;
     color: white;
 }
   
-#add-new-todo-button{
+#add-new-toda-button{
     font-size:20px;
      text-align: center;
      color:green;
     background-color:magenta;
    
-  }  
+  }
+  
+div.static{
+position: relative;
+}
